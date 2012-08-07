@@ -1,0 +1,44 @@
+
+dn: GLUE2ServiceID=%(srm_service_id)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+GLUE2EntityValidity: 86400
+GLUE2ServiceID: %(srm_service_id)s
+objectClass: GLUE2Service
+GLUE2ServiceType: SRM
+GLUE2EntityOtherInfo: InfoProviderName=%(info_provider_name)s
+GLUE2EntityOtherInfo: InfoProviderVersion=%(info_provider_version)s
+GLUE2EntityOtherInfo: InfoProviderHost=%(info_provider_host)s
+GLUE2EntityOtherInfo: MiddlewareName=OSG
+GLUE2ServiceComplexity: endpointType=1, share=0, resource=0
+GLUE2ServiceCapability: data.management.storage
+GLUE2EntityName: %(srm_service_name)s
+GLUE2ServiceAdminDomainForeignKey: %(domain_id)s
+GLUE2EntityCreationTime: %(creation_time)s
+
+dn: GLUE2EndpointID=%(srm_endpoint_id)s,GLUE2ServiceID=%(srm_service_name)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Endpoint
+objectClass: GLUE2StorageEndpoint
+GLUE2EntityValidity: 3600
+GLUE2EndpointCapability: data.management.storage
+GLUE2EndpointServiceForeignKey: %(srm_service_name)s
+GLUE2EndpointTechnology: webservice
+GLUE2EndpointInterfaceName: SRM
+GLUE2EndpointURL: %(srm_endpoint_url)s
+GLUE2EndpointInterfaceVersion: 2.2.0
+GLUE2EndpointID: %(srm_endpoint_id)s
+GLUE2EntityCreationTime: %(timestamp)s
+GLUE2EntityName: SRM endpoint for Service %(srm_service_name)s
+GLUE2EndpointWSDL: http://sdm.lbl.gov/srm-wg/srm.v2.2.wsdl
+GLUE2EndpointSemantics: http://sdm.lbl.gov/srm-wg/doc/SRM.v2.2.html
+
+dn: GLUE2PolicyID=%(srm_endpoint_id)s/ap,GLUE2EndpointID=%(srm_endpoint_id)s,GLUE2ServiceID=%(srm_service_name)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Policy
+objectClass: GLUE2AccessPolicy
+GLUE2EntityValidity: 3600
+%(glue2_policy_rule)s
+GLUE2PolicyScheme: org.glite.standard
+%(glue2_user_domain_fk)s
+GLUE2PolicyID: %(srm_endpoint_id)s/ap
+GLUE2EntityCreationTime: %(timestamp)s
+GLUE2EntityName: Access control rules for Endpoint %(srm_service_name)s
+GLUE2AccessPolicyEndpointForeignKey: %(srm_endpoint_id)s
+

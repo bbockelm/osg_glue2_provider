@@ -1,0 +1,245 @@
+dn: GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Domain
+objectClass: GLUE2AdminDomain
+GLUE2DomainDescription: IG INFN-BOLOGNA
+GLUE2DomainWWW: http://www.bo.infn.it
+GLUE2EntityOtherInfo: GRID=WLCG
+GLUE2EntityOtherInfo: GRID=EGEE
+GLUE2DomainID: INFN-BOLOGNA
+
+dn: GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Group
+GLUE2GroupID: resource
+
+dn: GLUE2LocationID=location.INFN-BOLOGNA,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Location
+GLUE2LocationLongitude: 11.3417
+GLUE2LocationCountry: Italy
+GLUE2LocationDomainForeignKey: INFN-BOLOGNA
+GLUE2LocationID: location.INFN-BOLOGNA
+GLUE2LocationLatitude: 44.4948
+
+dn: GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2ServiceID: bostorm.bo.infn.it
+objectClass: GLUE2Service
+GLUE2ServiceQualityLevel: 2
+GLUE2ServiceStatusInfo: http://bostorm.bo.infn.it/get-status
+GLUE2ServiceCapability: data.management.storage
+GLUE2ServiceType: Storage
+GLUE2ServiceAdminDomainForeignKey: bo.infn.it
+
+dn: GLUE2ServiceID=httpg://bostorm.bo.infn.it:8444/srm/managerv2,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2EntityValidity: 3600
+GLUE2ServiceID: httpg://bostorm.bo.infn.it:8444/srm/managerv2
+objectClass: GLUE2Service
+GLUE2ServiceType: SRM
+GLUE2ServiceQualityLevel: testing
+GLUE2EntityOtherInfo: InfoProviderName=glite-info-glue2-service
+GLUE2EntityOtherInfo: InfoProviderVersion=1.1
+GLUE2EntityOtherInfo: InfoProviderHost=bostorm.bo.infn.it
+GLUE2ServiceComplexity: endpointType=1, share=0, resource=0
+GLUE2ServiceCapability: data.management.storage
+GLUE2EntityName: INFN-BOLOGNA-SRM
+GLUE2ServiceAdminDomainForeignKey: INFN-BOLOGNA
+GLUE2EntityCreationTime: 2012-07-16T19:30:50Z
+
+dn: GLUE2ShareID=bostorm.bo.infn.it/cms,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2StorageShareStorageServiceForeignKey: bostorm.bo.infn.it/cms
+GLUE2StorageSharePath: /cms
+objectClass: GLUE2Share
+objectClass: GLUE2StorageShare
+GLUE2StorageShareMaximumLifeTime: -1
+GLUE2StorageShareDefaultLifeTime: -1
+GLUE2StorageShareSharingID: cms:replica:online
+GLUE2ShareServiceForeignKey: bostorm.bo.infn.it
+GLUE2ShareID: bostorm.bo.infn.it/cms
+GLUE2StorageShareServingState: 4
+GLUE2StorageShareExpirationMode: neverExpire
+GLUE2StorageShareRetentionPolicy: replica
+GLUE2ShareDescription: Share for cms
+GLUE2StorageShareTag: cms
+GLUE2StorageShareAccessLatency: online
+
+dn: GLUE2ShareID=bostorm.bo.infn.it/ops,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2StorageShareStorageServiceForeignKey: bostorm.bo.infn.it/ops
+GLUE2StorageSharePath: /ops
+objectClass: GLUE2Share
+objectClass: GLUE2StorageShare
+GLUE2StorageShareMaximumLifeTime: -1
+GLUE2StorageShareDefaultLifeTime: -1
+GLUE2StorageShareSharingID: ops:replica:online
+GLUE2ShareServiceForeignKey: bostorm.bo.infn.it
+GLUE2ShareID: bostorm.bo.infn.it/ops
+GLUE2StorageShareServingState: 4
+GLUE2StorageShareExpirationMode: neverExpire
+GLUE2StorageShareRetentionPolicy: replica
+GLUE2ShareDescription: Share for ops
+GLUE2StorageShareTag: ops
+GLUE2StorageShareAccessLatency: online
+
+dn: GLUE2ShareID=bostorm.bo.infn.it/atlas,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2StorageShareStorageServiceForeignKey: bostorm.bo.infn.it/atlas
+GLUE2StorageSharePath: /atlas
+objectClass: GLUE2Share
+objectClass: GLUE2StorageShare
+GLUE2StorageShareMaximumLifeTime: -1
+GLUE2StorageShareDefaultLifeTime: -1
+GLUE2StorageShareSharingID: atlas:replica:online
+GLUE2ShareServiceForeignKey: bostorm.bo.infn.it
+GLUE2ShareID: bostorm.bo.infn.it/atlas
+GLUE2StorageShareServingState: 4
+GLUE2StorageShareExpirationMode: neverExpire
+GLUE2StorageShareRetentionPolicy: replica
+GLUE2ShareDescription: Share for atlas
+GLUE2StorageShareTag: atlas
+GLUE2StorageShareAccessLatency: online
+
+dn: GLUE2ManagerID=bostorm.bo.infn.it/manager,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2ManagerProductName: storm-backend-server
+objectClass: GLUE2Manager
+objectClass: GLUE2StorageManager
+GLUE2ManagerProductVersion: 1.8.2
+GLUE2StorageManagerStorageServiceForeignKey: bostorm.bo.infn.it
+GLUE2ManagerServiceForeignKey: bostorm.bo.infn.it
+GLUE2ManagerID: bostorm.bo.infn.it/manager
+
+dn: GLUE2EndpointID=bostorm.bo.infn.it/srm/2.2.0,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2EndpointWSDL: http://sdm.lbl.gov/srm-wg/srm.v2.2.wsdl
+GLUE2EndpointInterfaceName: SRM
+GLUE2EndpointQualityLevel: Testing
+GLUE2EndpointDowntimeAnnounce: No
+objectClass: GLUE2Endpoint
+objectClass: GLUE2StorageEndpoint
+GLUE2EndpointImplementationVersion: 1.8.2
+GLUE2EndpointTechnology: webservice
+GLUE2EndpointImplementor: emi.storm
+GLUE2EndpointHealthStateInfo: No Problems for storm-backend-server
+GLUE2EndpointInterfaceVersion: 2.2.0
+GLUE2EndpointURL: httpg://bostorm.bo.infn.it:8444/srm/managerv2
+GLUE2EndpointImplementationName: StoRM
+GLUE2StorageEndpointStorageServiceForeignKey: bostorm.bo.infn.it
+GLUE2EndpointHealthState: OK
+GLUE2EndpointServingState: emi.storm.backend
+GLUE2EndpointCapability: Storage Management
+GLUE2EndpointServiceForeignKey: bostorm.bo.infn.it
+GLUE2EndpointID: bostorm.bo.infn.it/srm/2.2.0
+GLUE2EndpointSemantics: http://sdm.lbl.gov/srm-wg/doc/srm.v2.2.wsdl
+
+dn: GLUE2StorageAccessProtocolID=bostorm.bo.infn.it/gsiftp,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2StorageAccessProtocol
+GLUE2StorageAccessProtocolStorageServiceForeignKey: bostorm.bo.infn.it/gsiftp
+GLUE2StorageAccessProtocolVersion: 2.0.0
+GLUE2StorageAccessProtocolType: gsiftp
+GLUE2StorageAccessProtocolMaxStreams: 10
+GLUE2StorageAccessProtocolID: bostorm.bo.infn.it/gsiftp
+
+dn: GLUE2StorageServiceCapacityID=bostorm.bo.infn.it/capacity/online,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2StorageServiceCapacityUsedSize: 1002
+objectClass: GLUE2StorageServiceCapacity
+GLUE2StorageServiceCapacityFreeSize: 2792
+GLUE2StorageServiceCapacityType: online
+GLUE2StorageServiceCapacityID: bostorm.bo.infn.it/capacity/online
+GLUE2StorageServiceCapacityStorageServiceForeignKey: bostorm.bo.infn.it/capacity/online
+GLUE2StorageServiceCapacityTotalSize: 3800
+GLUE2StorageServiceCapacityReservedSize: 0
+
+dn: GLUE2StorageServiceCapacityID=bostorm.bo.infn.it/capacity/nearline,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2StorageServiceCapacityUsedSize: 0
+objectClass: GLUE2StorageServiceCapacity
+GLUE2StorageServiceCapacityFreeSize: 0
+GLUE2StorageServiceCapacityType: nearline
+GLUE2StorageServiceCapacityID: bostorm.bo.infn.it/capacity/nearline
+GLUE2StorageServiceCapacityStorageServiceForeignKey: bostorm.bo.infn.it/capacity/nearline
+GLUE2StorageServiceCapacityTotalSize: 0
+GLUE2StorageServiceCapacityReservedSize: 0
+
+dn: GLUE2PolicyID=bostorm.bo.infn.it/srm/2.2.0/ap,GLUE2EndpointID=bostorm.bo.infn.it/srm/2.2.0,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Policy
+objectClass: GLUE2AccessPolicy
+GLUE2PolicyRule: VO:alice
+GLUE2AccessPolicyEndpointForeignKey: bostorm.bo.infn.it/srm/2.2.0/ap
+GLUE2PolicyScheme: org.glite.standard
+GLUE2PolicyUserDomainForeignKey: alice
+GLUE2PolicyID: bostorm.bo.infn.it/srm/2.2.0/ap
+
+dn: GLUE2StorageShareCapacityID=bostorm.bo.infn.it/ops/capacity,GLUE2ShareID=bostorm.bo.infn.it/ops,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2StorageShareCapacityStorageShareForeignKey: bostorm.bo.infn.it/ops/capacity
+GLUE2StorageShareCapacityType: online
+objectClass: GLUE2StorageShareCapacity
+GLUE2StorageShareCapacityTotalSize: 100
+GLUE2StorageShareCapacityReservedSize: 0
+GLUE2StorageShareCapacityID: bostorm.bo.infn.it/ops/capacity
+GLUE2StorageShareCapacityUsedSize: 0
+GLUE2StorageShareCapacityFreeSize: 99
+
+dn: GLUE2StorageShareCapacityID=bostorm.bo.infn.it/cms/capacity,GLUE2ShareID=bostorm.bo.infn.it/cms,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2StorageShareCapacityStorageShareForeignKey: bostorm.bo.infn.it/cms/capacity
+GLUE2StorageShareCapacityType: online
+objectClass: GLUE2StorageShareCapacity
+GLUE2StorageShareCapacityTotalSize: 500
+GLUE2StorageShareCapacityReservedSize: 0
+GLUE2StorageShareCapacityID: bostorm.bo.infn.it/cms/capacity
+GLUE2StorageShareCapacityUsedSize: 0
+GLUE2StorageShareCapacityFreeSize: 499
+
+dn: GLUE2StorageShareCapacityID=bostorm.bo.infn.it/atlas/capacity,GLUE2ShareID=bostorm.bo.infn.it/atlas,GLUE2ServiceID=bostorm.bo.infn.it,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2StorageShareCapacityStorageShareForeignKey: bostorm.bo.infn.it/atlas/capacity
+GLUE2StorageShareCapacityType: online
+objectClass: GLUE2StorageShareCapacity
+GLUE2StorageShareCapacityTotalSize: 500
+GLUE2StorageShareCapacityReservedSize: 0
+GLUE2StorageShareCapacityID: bostorm.bo.infn.it/atlas/capacity
+GLUE2StorageShareCapacityUsedSize: 2
+GLUE2StorageShareCapacityFreeSize: 497
+
+dn: GLUE2EndpointID=httpg://bostorm.bo.infn.it:8444/srm/managerv2_SRM_1952597118,GLUE2ServiceID=httpg://bostorm.bo.infn.it:8444/srm/managerv2,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2EntityValidity: 3600
+GLUE2EndpointQualityLevel: testing
+GLUE2EndpointImplementor: emi
+GLUE2EndpointHealthStateInfo: The StoRM Backend server is running
+GLUE2EntityOtherInfo: InfoProviderName=glite-info-glue2-endpoint
+GLUE2EntityOtherInfo: InfoProviderVersion=1.2
+GLUE2EntityOtherInfo: InfoProviderHost=bostorm.bo.infn.it
+GLUE2EntityOtherInfo: MiddlewareName=EMI
+GLUE2EntityOtherInfo: MiddlewareVersion=1.11.0-1
+GLUE2EndpointCapability: data.management.storage
+GLUE2EndpointHealthState: ok
+GLUE2EndpointServiceForeignKey: httpg://bostorm.bo.infn.it:8444/srm/managerv2
+GLUE2EntityName: SRM endpoint for Service httpg://bostorm.bo.infn.it:8444/srm/managerv2
+GLUE2EndpointTechnology: webservice
+GLUE2EndpointWSDL: http://sdm.lbl.gov/srm-wg/srm.v2.2.wsdl
+GLUE2EndpointInterfaceName: SRM
+GLUE2EndpointURL: httpg://bostorm.bo.infn.it:8444/srm/managerv2
+GLUE2EndpointDowntimeInfo: See the GOC DB for downtimes: https://goc.egi.eu/
+GLUE2EndpointImplementationVersion: 1.8.2
+GLUE2EndpointSemantics: http://sdm.lbl.gov/srm-wg/doc/SRM.v2.2.html
+GLUE2EndpointIssuerCA: /C=IT/O=INFN/CN=INFN CA
+GLUE2EndpointServingState: production
+objectClass: GLUE2Endpoint
+objectClass: GLUE2StorageEndpoint
+GLUE2EndpointInterfaceVersion: 2.2.0
+GLUE2EndpointImplementationName: StoRM
+GLUE2EndpointTrustedCA: IGTF
+GLUE2EndpointID: httpg://bostorm.bo.infn.it:8444/srm/managerv2_SRM_1952597118
+GLUE2EndpointStartTime: 2012-07-02T06:32:18Z
+GLUE2EntityCreationTime: 2012-07-16T19:30:50Z
+
+dn: GLUE2PolicyID=httpg://bostorm.bo.infn.it:8444/srm/managerv2_SRM_1952597118_Policy,GLUE2EndpointID=httpg://bostorm.bo.infn.it:8444/srm/managerv2_SRM_1952597118,GLUE2ServiceID=httpg://bostorm.bo.infn.it:8444/srm/managerv2,GLUE2GroupID=resource,GLUE2DomainID=INFN-BOLOGNA,GLUE2GroupID=grid,o=glue
+GLUE2AccessPolicyEndpointForeignKey: httpg://bostorm.bo.infn.it:8444/srm/managerv2_SRM_1952597118
+GLUE2EntityValidity: 3600
+objectClass: GLUE2Policy
+objectClass: GLUE2AccessPolicy
+GLUE2PolicyRule: VO:atlas
+GLUE2PolicyRule: VO:cms
+GLUE2PolicyRule: VO:ops
+GLUE2PolicyScheme: org.glite.standard
+GLUE2EntityOtherInfo: InfoProviderName=glite-info-glue2-endpoint
+GLUE2EntityOtherInfo: InfoProviderVersion=1.2
+GLUE2EntityOtherInfo: InfoProviderHost=bostorm.bo.infn.it
+GLUE2PolicyUserDomainForeignKey: atlas
+GLUE2PolicyUserDomainForeignKey: cms
+GLUE2PolicyUserDomainForeignKey: ops
+GLUE2PolicyID: httpg://bostorm.bo.infn.it:8444/srm/managerv2_SRM_1952597118_Policy
+GLUE2EntityName: Access control rules for Endpoint httpg://bostorm.bo.infn.it:8444/srm/managerv2_SRM_1952597118
+GLUE2EntityCreationTime: 2012-07-16T19:30:50Z
+

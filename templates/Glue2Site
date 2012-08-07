@@ -1,0 +1,20 @@
+dn: GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Domain
+objectClass: GLUE2AdminDomain
+GLUE2DomainDescription: %(domain_description)s
+GLUE2DomainWWW: %(domain_website)s
+GLUE2EntityOtherInfo: GRID=WLCG
+GLUE2EntityOtherInfo: GRID=OSG
+GLUE2DomainID: %(domain_id)s
+
+dn: GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Group
+GLUE2GroupID: resource
+
+dn: GLUE2LocationID=location.%(domain_id)s,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Location
+GLUE2LocationLongitude: %(longitude)s
+GLUE2LocationCountry: %(country)s
+GLUE2LocationDomainForeignKey: INFN-BOLOGNA
+GLUE2LocationID: location.%(domain_id)s
+GLUE2LocationLatitude: %(latitude)s

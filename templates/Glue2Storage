@@ -1,0 +1,50 @@
+
+dn: GLUE2ServiceID=%(storage_service_id)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+GLUE2ServiceID: %(storage_service_id)s
+objectClass: GLUE2Service
+GLUE2ServiceCapability: data.management.storage
+GLUE2ServiceType: Storage
+GLUE2ServiceAdminDomainForeignKey: %(domain_id)s
+
+# Note: could make the service state a variable, if we hook in downtime information.
+dn: GLUE2ShareID=%(storage_service_id)s/%(vo),GLUE2ServiceID=%(storage_service_id)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+GLUE2StorageShareStorageServiceForeignKey: %(storage_service_id)s/%(vo)s
+GLUE2StorageSharePath: /cms
+objectClass: GLUE2Share
+objectClass: GLUE2StorageShare
+GLUE2ShareServiceForeignKey: %(storage_service_id)s
+GLUE2ShareID: /cms
+GLUE2StorageShareServingState: 4
+GLUE2StorageShareTag: cms
+
+dn: GLUE2EndpointID=%(srm_endpoint_id)s,GLUE2ServiceID=%(storage_service_id)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Endpoint
+objectClass: GLUE2StorageEndpoint
+GLUE2EndpointWSDL: http://sdm.lbl.gov/srm-wg/srm.v2.2.wsdl
+GLUE2EndpointInterfaceName: SRM
+GLUE2EndpointDowntimeAnnounce: No
+GLUE2EndpointTechnology: webservice
+GLUE2EndpointInterfaceVersion: 2.2.0
+GLUE2EndpointURL: %(srm_endpoint_url)s
+GLUE2StorageEndpointStorageServiceForeignKey: %(storage_service_id)s
+GLUE2EndpointCapability: Storage Management
+GLUE2EndpointServiceForeignKey: %(storage_service_id)s
+GLUE2EndpointID: %(srm_endpoint_id)s
+GLUE2EndpointSemantics: http://sdm.lbl.gov/srm-wg/doc/srm.v2.2.wsdl
+
+dn: GLUE2StorageAccessProtocolID=%(storage_service_id)s/gsiftp,GLUE2ServiceID=%(storage_service_id)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2StorageAccessProtocol
+GLUE2StorageAccessProtocolStorageServiceForeignKey: %(storage_service_id)s/gsiftp
+GLUE2StorageAccessProtocolVersion: 2.0.0
+GLUE2StorageAccessProtocolType: gsiftp
+GLUE2StorageAccessProtocolID: %(storage_service_id)s/gsiftp
+
+dn: GLUE2PolicyID=%(srm_endpoint_id)s/ap,GLUE2EndpointID=%(srm_endpoint_id)s,GLUE2ServiceID=%(storage_service_id)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+objectClass: GLUE2Policy
+objectClass: GLUE2AccessPolicy
+GLUE2PolicyRule: VO:%(vo)s
+GLUE2AccessPolicyEndpointForeignKey: %(srm_endpoint_id)s/ap
+GLUE2PolicyScheme: org.glite.standard
+GLUE2PolicyUserDomainForeignKey: %(vo)s
+GLUE2PolicyID: %(srm_endpoint_id)s/ap
+
