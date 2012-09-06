@@ -5,7 +5,7 @@ GOC in order for us to ensure that any changes to this XML will not break your s
 https://spreadsheets.google.com/viewform?hl=en&formkey=dE8xYjUtMk9zZlQ3WktMa2lTWV9MOHc6MA
 
 This XML was generated via following MyOSG page:
-http://myosg.grid.iu.edu/rgsummary/?datasource=summary&summary_attrs_showservice=on&summary_attrs_showfqdn=on&summary_attrs_showcontact=on&all_resources=on&gridtype=on&gridtype_1=on&active=on&active_value=1&disable_value=1&has_wlcg=on
+http://myosg.grid.iu.edu/rgsummary/?all_resources=on&gridtype=on&gridtype_1=on&active=on&active_value=1&disable_value=1&has_wlcg=on&datasource=summary&summary_attrs_showservice=on&summary_attrs_showfqdn=on&summary_attrs_showcontact=on&summary_attrs_showvoownership=on
 -->
 <!--NOTE: Email address and phone number of contacts are displayed only to authorized users who have there DN loaded in their web-browser or wget/curl type web client, and are registered in OIM with appropriate authorization level(s).-->
 <ResourceSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -34,6 +34,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gate01.aglt2.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>80</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>20</Percent>
+            <VO>(Other)</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:80,20&amp;chs=280x65&amp;chl=ATLAS(80%)|Other(20%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Administrative Contact</ContactType>
@@ -113,6 +125,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gate02.grid.umich.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>20</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>80</Percent>
+            <VO>(Other)</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:20,80&amp;chs=280x65&amp;chl=ATLAS(20%)|Other(80%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -203,6 +227,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>head01.aglt2.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>80</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>20</Percent>
+            <VO>(Other)</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:80,20&amp;chs=280x65&amp;chl=ATLAS(80%)|Other(20%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Administrative Contact</ContactType>
@@ -285,6 +321,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gate03.aglt2.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -343,6 +387,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>atlasgridftp1.hep.anl.gov</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -408,6 +460,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>atlas11.hep.anl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -486,6 +546,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>tier3-atlas2.bellarmine.edu</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
@@ -583,6 +651,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>grid37.racf.bnl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Administrative Contact</ContactType>
@@ -636,6 +712,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gridtest02.racf.bnl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -680,6 +764,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Primary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
         </ContactLists>
@@ -719,6 +807,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gridgk01.racf.bnl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -740,6 +836,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Secondary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
           <ContactList>
@@ -754,6 +854,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
           <ContactList>
             <ContactType>Security Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>John Hover</Name>
                 <ContactRank>Primary</ContactRank>
@@ -783,6 +887,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gridgk02.racf.bnl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -804,6 +916,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Secondary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
           <ContactList>
@@ -818,6 +934,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
           <ContactList>
             <ContactType>Security Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>John Hover</Name>
                 <ContactRank>Primary</ContactRank>
@@ -847,6 +967,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gridgk03.racf.bnl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -868,6 +996,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Secondary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
           <ContactList>
@@ -882,6 +1014,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
           <ContactList>
             <ContactType>Security Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>John Hover</Name>
                 <ContactRank>Primary</ContactRank>
@@ -911,6 +1047,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gridgk04.racf.bnl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -932,6 +1076,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Secondary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
           <ContactList>
@@ -945,11 +1093,19 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Secondary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
           <ContactList>
             <ContactType>Security Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>John Hover</Name>
                 <ContactRank>Primary</ContactRank>
@@ -979,6 +1135,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gridgk05.racf.bnl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1000,6 +1164,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Secondary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
           <ContactList>
@@ -1014,6 +1182,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
           <ContactList>
             <ContactType>Security Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>John Hover</Name>
                 <ContactRank>Primary</ContactRank>
@@ -1043,6 +1215,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gridgk06.racf.bnl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1064,6 +1244,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Secondary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
           <ContactList>
@@ -1078,6 +1262,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
           <ContactList>
             <ContactType>Security Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>John Hover</Name>
                 <ContactRank>Primary</ContactRank>
@@ -1113,6 +1301,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gridgk07.racf.bnl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1134,6 +1330,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Secondary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
           <ContactList>
@@ -1147,11 +1347,19 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Secondary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
           <ContactList>
             <ContactType>Security Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>John Hover</Name>
                 <ContactRank>Primary</ContactRank>
@@ -1178,6 +1386,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>dcsrm.usatlas.bnl.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1199,6 +1415,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
                 <Name>John Hover</Name>
                 <ContactRank>Secondary</ContactRank>
               </Contact>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
             </Contacts>
           </ContactList>
           <ContactList>
@@ -1213,6 +1433,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
           <ContactList>
             <ContactType>Security Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>John Hover</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>John Hover</Name>
                 <ContactRank>Primary</ContactRank>
@@ -1239,17 +1463,31 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
             <ID>1</ID>
             <Name>CE</Name>
             <Description>Compute Element</Description>
-            <Details></Details>
+            <Details>
+              <hidden>False</hidden>
+              <uri_override></uri_override>
+            </Details>
           </Service>
           <Service>
             <ID>3</ID>
             <Name>SRMv2</Name>
             <Description>SRM V2 Storage Element</Description>
-            <Details></Details>
+            <Details>
+              <hidden>False</hidden>
+              <uri_override></uri_override>
+            </Details>
           </Service>
         </Services>
         <FQDN>grid-0.hep.brown.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1341,13 +1579,30 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
             <Name>CE</Name>
             <Description>Compute Element</Description>
             <Details>
-              <hidden>False</hidden>
               <uri_override></uri_override>
+              <hidden>False</hidden>
+            </Details>
+          </Service>
+          <Service>
+            <ID>3</ID>
+            <Name>SRMv2</Name>
+            <Description>SRM V2 Storage Element</Description>
+            <Details>
+              <hidden>False</hidden>
+              <uri_override>srm.hep.brown.edu:8443</uri_override>
             </Details>
           </Service>
         </Services>
         <FQDN>brux3.hep.brown.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -1401,11 +1656,11 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
               </Contact>
               <Contact>
                 <Name>Jack Fowler</Name>
-                <ContactRank>Secondary</ContactRank>
+                <ContactRank>Primary</ContactRank>
               </Contact>
               <Contact>
                 <Name>Meenakshi Narain</Name>
-                <ContactRank>Primary</ContactRank>
+                <ContactRank>Secondary</ContactRank>
               </Contact>
             </Contacts>
           </ContactList>
@@ -1464,6 +1719,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>atlas.bu.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1531,6 +1794,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>atlas-net2.bu.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1584,6 +1855,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>proton.fis.cinvestav.mx</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>80</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>20</Percent>
+            <VO>DOSAR</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:80,20&amp;chs=280x65&amp;chl=CMS(80%)|DOSAR(20%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1638,6 +1921,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>meson.fis.cinvestav.mx</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1712,6 +2003,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cit-se.ultralight.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1784,6 +2083,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>cithep250.ultralight.org</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1868,6 +2175,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>cithep231.ultralight.org</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -1940,6 +2255,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>cithep252.ultralight.org</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -2021,6 +2344,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg-ce1.hep.caltech.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -2098,6 +2429,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg-gw.clemson.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>Engage</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=Engage(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -2197,6 +2536,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>atlgridftp01.phy.duke.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -2259,10 +2606,22 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ff-grid.unl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>HCC</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=HCC(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>Brian Bockelman</Name>
+                <ContactRank>Secondary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>Brian Bockelman</Name>
                 <ContactRank>Secondary</ContactRank>
@@ -2362,10 +2721,22 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ff-se.unl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>HCC</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=HCC(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>Brian Bockelman</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>Brian Bockelman</Name>
                 <ContactRank>Primary</ContactRank>
@@ -2375,6 +2746,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>Brian Bockelman</Name>
+                <ContactRank>Tertiary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>Brian Bockelman</Name>
                 <ContactRank>Tertiary</ContactRank>
@@ -2445,10 +2820,22 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ff-grid2.unl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>HCC</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=HCC(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>Brian Bockelman</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>Brian Bockelman</Name>
                 <ContactRank>Primary</ContactRank>
@@ -2458,6 +2845,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>Brian Bockelman</Name>
+                <ContactRank>Tertiary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>Brian Bockelman</Name>
                 <ContactRank>Tertiary</ContactRank>
@@ -2547,6 +2938,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>fiupg.hep.fiu.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Resource Report Contact</ContactType>
@@ -2612,6 +3011,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>uscms1.fltech-grid3.fit.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -2682,6 +3089,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>uscms1-se.fltech-grid3.fit.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -2765,6 +3180,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>fermigridosg1.fnal.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>Fermilab</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=Fermilab(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -2867,6 +3290,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>fnpcosg1.fnal.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>Fermilab</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=Fermilab(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -2970,6 +3401,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ce.hep.fsu.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -3064,6 +3503,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cmsgrid01.hep.wisc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -3142,6 +3589,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>login01.hep.wisc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -3224,6 +3679,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>login02.hep.wisc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -3306,6 +3769,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>login03.hep.wisc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -3388,6 +3859,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>login04.hep.wisc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -3479,6 +3958,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cmsgrid02.hep.wisc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -3557,6 +4044,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cmssrm.hep.wisc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -3643,6 +4138,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>magic.cse.buffalo.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>NYSGRID</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=NYSGRID(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -3726,6 +4229,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ce.grid.unesp.br</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>GridUNESP</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=GridUNESP(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
@@ -3833,6 +4344,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>grow-grid.its.uiowa.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>GROW</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=GROW(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -3920,6 +4439,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osgce.hepgrid.uerj.br</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4003,6 +4530,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osgce64.hepgrid.uerj.br</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4086,6 +4621,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>se-dcache.hepgrid.uerj.br</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4180,6 +4723,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>heroatlas.fas.harvard.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4273,6 +4824,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osgx0.hep.uiuc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4360,6 +4919,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osgx1.hep.uiuc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4455,6 +5022,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>glcc88.ucllnl.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ALICE</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ALICE(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4508,6 +5083,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg-nemo-ce.phys.uwm.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>LIGO</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=LIGO(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4582,6 +5165,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ce01.cmsaf.mit.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>10</Percent>
+            <VO>CDF</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>90</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:10,90&amp;chs=280x65&amp;chl=CDF(10%)|CMS(90%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4663,6 +5258,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ce02.cmsaf.mit.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>10</Percent>
+            <VO>CDF</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>90</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:10,90&amp;chs=280x65&amp;chl=CDF(10%)|CMS(90%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4742,6 +5349,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>se01.cmsaf.mit.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4828,6 +5443,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg-gk.mwt2.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -4934,6 +5557,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>iut2-gk.mwt2.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -5040,6 +5671,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>uct2-gk.mwt2.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -5132,6 +5771,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>uct2-dc1.uchicago.edu</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Administrative Contact</ContactType>
@@ -5230,6 +5877,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>red.unl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
@@ -5317,6 +5972,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>red-gw1.unl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -5386,6 +6049,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>red-gw2.unl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -5455,10 +6126,22 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>dcache07.unl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>Brian Bockelman</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>Brian Bockelman</Name>
                 <ContactRank>Primary</ContactRank>
@@ -5542,10 +6225,22 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>red-srm1.unl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>Brian Bockelman</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>Brian Bockelman</Name>
                 <ContactRank>Primary</ContactRank>
@@ -5623,10 +6318,22 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>srm.unl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
             <Contacts>
+              <Contact>
+                <Name>Brian Bockelman</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
               <Contact>
                 <Name>Brian Bockelman</Name>
                 <ContactRank>Primary</ContactRank>
@@ -5724,6 +6431,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>pdsfgrid4.nersc.gov</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>29</Percent>
+            <VO>ALICE</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>71</Percent>
+            <VO>NERSC</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:29,71&amp;chs=280x65&amp;chl=ALICE(29%)|NERSC(71%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Administrative Contact</ContactType>
@@ -5820,6 +6539,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>pdsfgrid1.nersc.gov</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>1</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>99</Percent>
+            <VO>NERSC</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:1,99&amp;chs=280x65&amp;chl=ATLAS(1%)|NERSC(99%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -5923,6 +6654,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>earth.crc.nd.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>NWICG</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=NWICG(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -5982,6 +6721,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ndcms.crc.nd.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>NWICG</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=NWICG(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -6059,6 +6806,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg.crc.nd.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>NWICG</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=NWICG(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -6143,6 +6898,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
           <FQDNAlias>nys1.cac.cornell.edu</FQDNAlias>
           <FQDNAlias>osg-se.cac.cornell.edu</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>NYSGRID</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=NYSGRID(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
@@ -6240,6 +7003,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>u2-grid.ccr.buffalo.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>NYSGRID</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=NYSGRID(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -6333,6 +7104,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cms-0.mps.ohio-state.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -6428,6 +7207,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>tier2-02.ochep.ou.edu</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -6518,6 +7305,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>grid1.oscer.ou.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -6608,6 +7403,22 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osgitb1.nhn.ou.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>40</Percent>
+            <VO>DOSAR</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>30</Percent>
+            <VO>DZero</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>30</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:40,30,30&amp;chs=280x65&amp;chl=DOSAR(40%)|DZero(30%)|ATLAS(30%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -6709,6 +7520,22 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>ouhep2.nhn.ou.edu</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>33</Percent>
+            <VO>DOSAR</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>33</Percent>
+            <VO>DZero</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>34</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:33,33,34&amp;chs=280x65&amp;chl=DOSAR(33%)|DZero(33%)|ATLAS(34%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -6790,6 +7617,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>srm.hep.upenn.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -6842,6 +7677,74 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
   </ResourceGroup>
   <ResourceGroup>
     <GridType>OSG Production Resource</GridType>
+    <GroupID>349</GroupID>
+    <GroupName>PNNL_OSG</GroupName>
+    <Disable>False</Disable>
+    <Resources>
+      <Resource>
+        <ID>475</ID>
+        <Name>PNNL_OSG</Name>
+        <Active>True</Active>
+        <Disable>False</Disable>
+        <Services>
+          <Service>
+            <ID>1</ID>
+            <Name>CE</Name>
+            <Description>Compute Element</Description>
+            <Details>
+              <uri_override></uri_override>
+              <hidden>False</hidden>
+            </Details>
+          </Service>
+        </Services>
+        <FQDN>osg.pnl.gov</FQDN>
+        <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>ILC</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>belle</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:50,50&amp;chs=280x65&amp;chl=ILC(50%)|belle(50%)</ChartURL>
+        </VOOwnership>
+        <ContactLists>
+          <ContactList>
+            <ContactType>Submitter Contact</ContactType>
+            <Contacts>
+              <Contact>
+                <Name>Brock Erwin</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
+            </Contacts>
+          </ContactList>
+          <ContactList>
+            <ContactType>Security Contact</ContactType>
+            <Contacts>
+              <Contact>
+                <Name>Brock Erwin</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
+            </Contacts>
+          </ContactList>
+          <ContactList>
+            <ContactType>Administrative Contact</ContactType>
+            <Contacts>
+              <Contact>
+                <Name>Brock Erwin</Name>
+                <ContactRank>Primary</ContactRank>
+              </Contact>
+            </Contacts>
+          </ContactList>
+        </ContactLists>
+      </Resource>
+    </Resources>
+  </ResourceGroup>
+  <ResourceGroup>
+    <GridType>OSG Production Resource</GridType>
     <GroupID>268</GroupID>
     <GroupName>Princeton_ICSE_T3_CMS</GroupName>
     <Disable>False</Disable>
@@ -6861,6 +7764,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cmssw.princeton.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
@@ -6935,6 +7846,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>carter-osg.rcac.purdue.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>4</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>96</Percent>
+            <VO>(Other)</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:4,96&amp;chs=280x65&amp;chl=CMS(4%)|Other(96%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7006,6 +7929,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>hansen-osg.rcac.purdue.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>20</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>80</Percent>
+            <VO>(Other)</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:20,80&amp;chs=280x65&amp;chl=CMS(20%)|Other(80%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7084,6 +8019,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>srm-dcache.rcac.purdue.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -7171,6 +8114,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg.rcac.purdue.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7260,6 +8211,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>rossmann-osg.rcac.purdue.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7361,6 +8320,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>lepton.rcac.purdue.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7447,6 +8414,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>brgw1.renci.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>Engage</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=Engage(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
@@ -7536,6 +8511,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>bonner-grid.rice.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7595,6 +8578,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ruhex-osgce.rutgers.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>0</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>(Other)</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:0,100&amp;chs=280x65&amp;chl=CMS(0%)|Other(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7652,6 +8647,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>sbahead.physics.sunysb.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7701,6 +8704,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>sbanfs.physics.sunysb.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7750,6 +8761,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>sbaxrd1.physics.sunysb.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7806,6 +8825,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>smuosg1.hpc.smu.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>Nova</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:50,50&amp;chs=280x65&amp;chl=ATLAS(50%)|Nova(50%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7869,6 +8900,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>smuosgse.hpc.smu.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>Nova</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:50,50&amp;chs=280x65&amp;chl=ATLAS(50%)|Nova(50%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -7943,6 +8986,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg-ce.sprace.org.br</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
@@ -8061,6 +9112,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg-se.sprace.org.br</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -8184,6 +9243,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gk01.atlas-swt2.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -8252,6 +9319,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>test01.atlas-swt2.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -8315,6 +9390,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gk03.atlas-swt2.org</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -8397,6 +9480,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>hurr.tamu.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>70</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>30</Percent>
+            <VO>SURAgrid</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:70,30&amp;chs=280x65&amp;chl=CMS(70%)|SURAgrid(30%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -8500,6 +9595,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>antaeus.hpcc.ttu.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>TIGRE</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:50,50&amp;chs=280x65&amp;chl=CMS(50%)|TIGRE(50%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -8569,6 +9676,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>sigmorgh.hpcc.ttu.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>OSG</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:50,50&amp;chs=280x65&amp;chl=CMS(50%)|OSG(50%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -8659,6 +9778,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cobalt.uit.tufts.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -8746,6 +9873,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cms.tier3.ucdavis.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -8812,6 +9947,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>se.tier3.ucdavis.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -8895,6 +10038,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>heposg01.colorado.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -8965,6 +10116,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>hepse01.colorado.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9043,6 +10202,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>hepse02.colorado.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9146,6 +10313,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>grinch.phys.uconn.edu</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>Gluex</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>50</Percent>
+            <VO>(Other)</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:50,50&amp;chs=280x65&amp;chl=Gluex(50%)|Other(50%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9220,6 +10399,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>top.ucr.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9277,6 +10464,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>charm.ucr.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9360,6 +10555,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg-gw-2.t2.ucsd.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9433,6 +10636,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg-gw-4.t2.ucsd.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9502,6 +10713,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>bsrm-1.t2.ucsd.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9580,6 +10799,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osg.hpc.ufl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>0</Percent>
+            <VO>OSG</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100,0&amp;chs=280x65&amp;chl=CMS(100%)|OSG(0%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
@@ -9662,6 +10893,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>srm.ihepa.ufl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9723,6 +10962,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>srmb.ihepa.ufl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9821,6 +11068,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ce.hpc.ufl.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Miscellaneous Contact</ContactType>
@@ -9897,6 +11152,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>hepcms-0.umd.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -9995,6 +11258,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>umiss001.hep.olemiss.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>75</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>25</Percent>
+            <VO>DZero</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:75,25&amp;chs=280x65&amp;chl=CMS(75%)|DZero(25%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10052,6 +11327,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>umiss005.hep.olemiss.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>75</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>25</Percent>
+            <VO>DZero</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:75,25&amp;chs=280x65&amp;chl=CMS(75%)|DZero(25%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10117,6 +11404,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>atlas-gridftp.phyast.pitt.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10194,6 +11489,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cms-grid0.hep.uprm.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10260,6 +11563,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cms-se.hep.uprm.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10343,6 +11654,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cmsosgce.fnal.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10372,6 +11691,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
               <Contact>
                 <Name>Burt Holzman</Name>
                 <ContactRank>Primary</ContactRank>
+              </Contact>
+              <Contact>
+                <Name>Anthony Tiradani</Name>
+                <ContactRank>Tertiary</ContactRank>
               </Contact>
               <Contact>
                 <Name>Anthony Tiradani</Name>
@@ -10428,6 +11751,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cmsosgce2.fnal.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10457,6 +11788,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
               <Contact>
                 <Name>Burt Holzman</Name>
                 <ContactRank>Primary</ContactRank>
+              </Contact>
+              <Contact>
+                <Name>Anthony Tiradani</Name>
+                <ContactRank>Tertiary</ContactRank>
               </Contact>
               <Contact>
                 <Name>Anthony Tiradani</Name>
@@ -10507,6 +11842,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cmsosgce3.fnal.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10536,6 +11879,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
               <Contact>
                 <Name>Burt Holzman</Name>
                 <ContactRank>Primary</ContactRank>
+              </Contact>
+              <Contact>
+                <Name>Anthony Tiradani</Name>
+                <ContactRank>Tertiary</ContactRank>
               </Contact>
               <Contact>
                 <Name>Anthony Tiradani</Name>
@@ -10592,6 +11939,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cmsosgce4.fnal.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10621,6 +11976,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
               <Contact>
                 <Name>Burt Holzman</Name>
                 <ContactRank>Primary</ContactRank>
+              </Contact>
+              <Contact>
+                <Name>Anthony Tiradani</Name>
+                <ContactRank>Tertiary</ContactRank>
               </Contact>
               <Contact>
                 <Name>Anthony Tiradani</Name>
@@ -10674,6 +12033,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cmssrm.fnal.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10703,6 +12070,10 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
               <Contact>
                 <Name>Burt Holzman</Name>
                 <ContactRank>Primary</ContactRank>
+              </Contact>
+              <Contact>
+                <Name>Anthony Tiradani</Name>
+                <ContactRank>Tertiary</ContactRank>
               </Contact>
               <Contact>
                 <Name>Anthony Tiradani</Name>
@@ -10767,6 +12138,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>cms-xen19.fnal.gov</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -10860,6 +12239,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gk04.swt2.uta.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -10922,6 +12309,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gk05.swt2.uta.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -11012,6 +12407,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>gomez.utdallas.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -11122,6 +12525,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ce1.accre.vanderbilt.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -11216,6 +12627,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>ce2.accre.vanderbilt.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -11299,6 +12718,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>se3.accre.vanderbilt.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -11378,6 +12805,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>se1.accre.vanderbilt.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -11481,6 +12916,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>se2.accre.vanderbilt.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Administrative Contact</ContactType>
@@ -11538,6 +12981,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         <FQDNAliases>
           <FQDNAlias>se2.accre.vanderbilt.edu</FQDNAlias>
         </FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>CMS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=CMS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Administrative Contact</ContactType>
@@ -11595,6 +13046,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>valiant.phys.vt.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>belle</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=belle(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -11684,6 +13143,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>higgs08.cs.wisc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -11765,6 +13232,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>atlas07.cs.wisc.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -11855,6 +13330,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osgserv01.slac.stanford.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Administrative Contact</ContactType>
@@ -11926,6 +13409,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osgserv06.slac.stanford.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>
@@ -11992,6 +13483,14 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osgserv04.slac.stanford.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Security Contact</ContactType>
@@ -12057,6 +13556,18 @@ xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
         </Services>
         <FQDN>osgsrm01.slac.stanford.edu</FQDN>
         <FQDNAliases></FQDNAliases>
+        <VOOwnership>
+          <Ownership>
+            <Percent>0</Percent>
+            <VO>ATLAS</VO>
+          </Ownership>
+          <Ownership>
+            <Percent>100</Percent>
+            <VO>(Other)</VO>
+          </Ownership>
+          <ChartURL>
+          http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:0,100&amp;chs=280x65&amp;chl=ATLAS(0%)|Other(100%)</ChartURL>
+        </VOOwnership>
         <ContactLists>
           <ContactList>
             <ContactType>Submitter Contact</ContactType>

@@ -7,15 +7,14 @@ GLUE2ServiceType: Storage
 GLUE2ServiceAdminDomainForeignKey: %(domain_id)s
 
 # Note: could make the service state a variable, if we hook in downtime information.
-dn: GLUE2ShareID=%(storage_service_id)s/%(vo),GLUE2ServiceID=%(storage_service_id)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
+dn: GLUE2ShareID=%(storage_service_id)s/%(vo)s,GLUE2ServiceID=%(storage_service_id)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
 GLUE2StorageShareStorageServiceForeignKey: %(storage_service_id)s/%(vo)s
-GLUE2StorageSharePath: /cms
 objectClass: GLUE2Share
 objectClass: GLUE2StorageShare
 GLUE2ShareServiceForeignKey: %(storage_service_id)s
-GLUE2ShareID: /cms
+GLUE2ShareID: /%(vo)s
 GLUE2StorageShareServingState: 4
-GLUE2StorageShareTag: cms
+GLUE2StorageShareTag: %(vo)s
 
 dn: GLUE2EndpointID=%(srm_endpoint_id)s,GLUE2ServiceID=%(storage_service_id)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
 objectClass: GLUE2Endpoint
@@ -42,9 +41,9 @@ GLUE2StorageAccessProtocolID: %(storage_service_id)s/gsiftp
 dn: GLUE2PolicyID=%(srm_endpoint_id)s/ap,GLUE2EndpointID=%(srm_endpoint_id)s,GLUE2ServiceID=%(storage_service_id)s,GLUE2GroupID=resource,GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
 objectClass: GLUE2Policy
 objectClass: GLUE2AccessPolicy
-GLUE2PolicyRule: VO:%(vo)s
+%(vo_policy_rule)s
 GLUE2AccessPolicyEndpointForeignKey: %(srm_endpoint_id)s/ap
 GLUE2PolicyScheme: org.glite.standard
-GLUE2PolicyUserDomainForeignKey: %(vo)s
+%(user_domain_foreign_key)s
 GLUE2PolicyID: %(srm_endpoint_id)s/ap
 

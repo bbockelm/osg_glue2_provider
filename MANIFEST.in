@@ -1,0 +1,7 @@
+
+include config/*.cfg
+include config/osg_glue2_provider.spec
+include samples/*
+include templates/*
+include setup.cfg
+

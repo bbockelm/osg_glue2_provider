@@ -1,0 +1,7 @@
+#!/usr/bin/python
+
+import osg_glue2_provider.fts2 as fts2
+
+if __name__ == "__main__":
+    fts2.main()
+

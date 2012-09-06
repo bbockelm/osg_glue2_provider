@@ -2,7 +2,6 @@ dn: GLUE2DomainID=%(domain_id)s,GLUE2GroupID=grid,o=glue
 objectClass: GLUE2Domain
 objectClass: GLUE2AdminDomain
 GLUE2DomainDescription: %(domain_description)s
-GLUE2DomainWWW: %(domain_website)s
 GLUE2EntityOtherInfo: GRID=WLCG
 GLUE2EntityOtherInfo: GRID=OSG
 GLUE2DomainID: %(domain_id)s
